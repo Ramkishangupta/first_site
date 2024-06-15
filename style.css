@@ -1,0 +1,80 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #1a5d5c;
+}
+p {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-bottom: 40px;
+}
+.container {
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.game {
+    
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    align-items: centre;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    font-size: 8vmin;
+    background-color: white;
+    color: #8BC34A;
+    background-color: white;
+}
+.reset_button{
+    padding: 1rem;
+}
+.reset_button button{
+    background-color: rgba(0,0,0,0.6);
+    border: none;
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+    padding: 0.75rem;
+}
+.msg_cont{
+    text-align: center;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    justify-content: center;
+    align-items: center;
+}
+.msg{
+    font-size: 5vmin;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    color: #95c360;
+}
+.start_again{
+    background-color: rgba(0,0,0,0.6);
+    border: none;
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+    padding: 0.75rem;
+    width: auto;
+}
+.hide {
+    display: none;
+}
